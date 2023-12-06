@@ -1,0 +1,357 @@
+/* Global CSS settings */
+body {	margin: 0px; 
+		padding: 0px;
+		}
+
+h1 {	text-align: center;
+	font-family: "Comic Sans MS", "Lucida Grande", "sans-serif";
+	font-size: 20px;
+	}
+	
+img { display: block; }
+
+/* Header and Footer*/
+#headerDiv {	width: 100%;
+			height: 175px;
+			border-bottom: 2px solid black;
+			background-image: url('images/gradient.png');
+			background-repeat: repeat-x;
+			}
+			
+#footerDiv {	width: 100%;
+			min-height: 175px;
+			border-top: 2px solid black;
+			background-image: url('images/gradientreverse.png');
+			background-repeat: repeat-x;
+			}
+			
+#logo {	width: 300px; }
+
+.footerDiv {	display: inline-block;
+			margin-top: 20px;
+			margin-left: 20px;
+			}
+			
+#ack {	font-size: 10px; }
+		
+/* Main column CSS settings */
+#bodywrapper {	white-space: nowrap; }
+
+.column {	display: inline-block; }
+
+#column1 { 	width: 176px;
+			vertical-align: top;
+			margin-top: 20px;
+			margin-bottom: 20px;
+			position: relative;
+			}
+			
+#column2 {	vertical-align: middle; }
+			
+/* Navigation menu */
+.button {	margin: 5px; }
+
+.button:hover {	cursor: pointer;
+				opacity:0.4;
+				}
+
+/* Home page */
+#synopsis {	position: absolute;
+			background-color: white;
+			padding: 5px;
+			margin-left: 10px;
+			margin-top: 40px;
+			-moz-border-radius: 10px; /* for Mozilla based browsers like FireFox */
+			-webkit-border-radius: 10px; /* for browsers that use Webkit like Safari, Opera, Chrome */
+			border-radius: 10px; /* future proofing */
+			-khtml-border-radius: 10px; /* for old Konqueror browsers */
+			}
+			
+#reveal {	position: absolute;
+			cursor: pointer;
+			background-color: yellow;
+			font-family: "Comic Sans MS", "Lucida Grande", "sans-serif";
+			font-size: 20px;
+			cursor: pointer;
+			border: 2px solid black;
+			-moz-border-radius: 10px; /* for Mozilla based browsers like FireFox */
+			-webkit-border-radius: 10px; /* for browsers that use Webkit like Safari, Opera, Chrome */
+			border-radius: 10px; /* future proofing */
+			-khtml-border-radius: 10px; /* for old Konqueror browsers */
+			}
+			
+#reveal:hover {	cursor: pointer;
+				border: 2px solid red;
+				opacity:0.4;
+				}
+			
+			
+#hide {	position: 	absolute; 
+		cursor: pointer;
+		background-color: yellow;
+		font-family: "Comic Sans MS", "Lucida Grande", "sans-serif";
+		font-size: 20px;
+		cursor: pointer;
+		border: 2px solid black;
+		-moz-border-radius: 10px; /* for Mozilla based browsers like FireFox */
+		-webkit-border-radius: 10px; /* for browsers that use Webkit like Safari, Opera, Chrome */
+		border-radius: 10px; /* future proofing */
+		-khtml-border-radius: 10px; /* for old Konqueror browsers */
+		}
+		
+#hide:hover {	cursor: pointer;
+				border: 2px solid red;
+				opacity:0.4;
+				}
+			
+/* Cast & Crew */			
+#castHeading {	width: 250px;
+				margin: 5px;
+				margin-top: 20px;
+				padding: 5px;
+				text-align: center;
+				font-family: "Comic Sans MS", "Lucida Grande", "sans-serif";
+				font-size: 20px;
+				-moz-border-radius: 10px; /* for Mozilla based browsers like FireFox */
+				-webkit-border-radius: 10px; /* for browsers that use Webkit like Safari, Opera, Chrome */
+				border-radius: 10px; /* future proofing */
+				-khtml-border-radius: 10px; /* for old Konqueror browsers */
+				border: 2px solid yellow;
+				background-color: rgba(227, 220, 121, 0.5);
+				}
+		
+.castTable {	border: 1px solid green;
+			margin: 10px;
+			padding: 10px;
+			height: 260px;
+			width: 800px;
+			-moz-border-radius: 10px; /* for Mozilla based browsers like FireFox */
+			-webkit-border-radius: 10px; /* for browsers that use Webkit like Safari, Opera, Chrome */
+			border-radius: 10px; /* future proofing */
+			-khtml-border-radius: 10px; /* for old Konqueror browsers */
+			}
+		
+.tableScroll {	overflow-y: scroll;
+				height: 260px;
+				width: 260px;
+				}
+
+.castName {	border: 1px solid grey;
+			cursor: pointer;
+			font-family: "Lucida Grande", "Tahoma";
+			font-size: 12px;
+			text-align: center;
+			-moz-border-radius: 10px; /* for Mozilla based browsers like FireFox */
+			-webkit-border-radius: 10px; /* for browsers that use Webkit like Safari, Opera, Chrome */
+			border-radius: 10px; /* future proofing */
+			-khtml-border-radius: 10px; /* for old Konqueror browsers */
+			}
+			
+.castName:hover {	border: 1px solid red; }
+				
+.biography {	padding: 5px;
+			white-space: pre-wrap;
+			width: 500px;
+			border: 1px solid black;
+			font-family: "Lucida Grande", "Tahoma";
+			font-size: 12px;
+			background-color: #EFEC95;
+			-moz-border-radius: 10px; /* for Mozilla based browsers like FireFox */
+			-webkit-border-radius: 10px; /* for browsers that use Webkit like Safari, Opera, Chrome */
+			border-radius: 10px; /* future proofing */
+			-khtml-border-radius: 10px; /* for old Konqueror browsers */
+			}
+			
+.pic {	display: inline-block;
+		margin-right: 20px;
+		margin-bottom: 10px;
+		}
+		
+.pic:hover {	cursor: pointer;
+			opacity:0.4;
+			}
+		
+/* Image gallery */
+#galleryContainer {	overflow: auto;
+					padding: 20px;
+					}
+					
+.rowHolder {	text-align: center; }
+
+#galleryHeading {	width: 250px;
+					margin: 5px;
+					margin-top: 20px;
+					padding: 5px;
+					text-align: center;
+					font-family: "Comic Sans MS", "Lucida Grande", "sans-serif";
+					font-size: 20px;
+					-moz-border-radius: 10px; /* for Mozilla based browsers like FireFox */
+					-webkit-border-radius: 10px; /* for browsers that use Webkit like Safari, Opera, Chrome */
+					border-radius: 10px; /* future proofing */
+					-khtml-border-radius: 10px; /* for old Konqueror browsers */
+					border: 2px solid yellow;
+					background-color: rgba(227, 220, 121, 0.5);
+					}
+					
+#closePicture {	width: 60px;
+				height: 20px;
+				font-family: "Comic Sans MS", "Lucida Grande", "sans-serif";
+				font-size: 14px;
+				text-align: center;
+				background-color: yellow;
+				position: relative;
+				z-index: 9;
+				-moz-border-radius: 10px; /* for Mozilla based browsers like FireFox */
+				-webkit-border-radius: 10px; /* for browsers that use Webkit like Safari, Opera, Chrome */
+				border-radius: 10px; /* future proofing */
+				-khtml-border-radius: 10px; /* for old Konqueror browsers */
+				margin-bottom: -20px;
+				}
+				
+#closePicture:hover {	cursor: pointer;
+						opacity:0.4;
+						}
+
+/* Registration form */
+
+#formInstructions {	display: inline-block;
+					vertical-align: top;
+					margin-top: 80px;
+					margin-bottom: 20px;
+					padding: 10px;
+					width: 300px;
+					white-space: pre-wrap;      /* CSS3 */   
+					white-space: -moz-pre-wrap; /* Firefox */    
+					white-space: -pre-wrap;     /* Opera <7 */   
+					white-space: -o-pre-wrap;   /* Opera 7 */    
+					word-wrap: break-word;      /* IE */
+					background-color: rgba(227, 220, 121, 0.5);
+					font-size: 12px;
+					font-family: "Lucida Grande", "Tahoma";
+					-moz-border-radius: 10px; /* for Mozilla based browsers like FireFox */
+					-webkit-border-radius: 10px; /* for browsers that use Webkit like Safari, Opera, Chrome */
+					border-radius: 10px; /* future proofing */
+					-khtml-border-radius: 10px; /* for old Konqueror browsers */
+					border: 2px solid yellow;
+					}
+
+#form {	display: inline-block; }
+
+#formborder {	border: 2px solid green;
+				margin: 20px;
+				background-color: rgba(45, 123, 34, 0.4);
+				-moz-border-radius: 10px; /* for Mozilla based browsers like FireFox */
+				-webkit-border-radius: 10px; /* for browsers that use Webkit like Safari, Opera, Chrome */
+				border-radius: 10px; /* future proofing */
+				-khtml-border-radius: 10px; /* for old Konqueror browsers */
+				}
+						
+#formheading {	width: 250px;
+				margin: 5px;
+				margin-top: 20px;
+				padding: 5px;
+				text-align: center;
+				font-family: "Comic Sans MS", "Lucida Grande", "sans-serif";
+				font-size: 20px;
+				-moz-border-radius: 10px; /* for Mozilla based browsers like FireFox */
+				-webkit-border-radius: 10px; /* for browsers that use Webkit like Safari, Opera, Chrome */
+				border-radius: 10px; /* future proofing */
+				-khtml-border-radius: 10px; /* for old Konqueror browsers */
+				border: 2px solid yellow;
+				background-color: rgba(227, 220, 121, 0.5);
+				}
+				
+.label {	display: inline-block;
+		width: 180px;
+		text-align: right;
+		vertical-align: top;
+		font-family: "Comic Sans MS", "Lucida Grande", "sans-serif";
+		font-size: 12px;
+		border: 1px solid black;
+		background-color: rgba(116, 116, 116, 0.7);
+		padding-right: 5px;
+		}
+		
+#username {	font-size: 12px;
+			color: gray;
+			}
+			
+#password {	font-size: 12px;
+			color: gray;
+			}
+
+.input:focus { 	border: 1px solid rgba(244, 80, 80, 0.7);
+				box-shadow: 0 0 10px rgba(244, 80, 80, 0.7);
+				}
+		
+.holder {	margin: 10px; }
+
+#buttonHolder {	text-align: right; }
+
+#radioGap {	margin-right: 15px; }
+
+.error {	margin-left: 50px;
+		display: none;
+		color: red;
+		font-size: 12px;
+		}
+		
+.membershipCell {	padding: 5px;
+					font-size: 10px;
+					}
+
+.cellHeading { font-weight: bold; }
+		
+/* Shopping page */
+#shoppingContainer {	text-align: center; }
+		
+#shoppingHeading {	width: 250px;
+					margin: 5px;
+					margin-top: 20px;
+					padding: 5px;
+					font-family: "Comic Sans MS", "Lucida Grande", "sans-serif";
+					font-size: 20px;
+					-moz-border-radius: 10px; /* for Mozilla based browsers like FireFox */
+					-webkit-border-radius: 10px; /* for browsers that use Webkit like Safari, Opera, Chrome */
+					border-radius: 10px; /* future proofing */
+					-khtml-border-radius: 10px; /* for old Konqueror browsers */
+					border: 2px solid yellow;
+					background-color: rgba(227, 220, 121, 0.5);
+					}
+					
+.placeholder {	display: inline-block;
+				margin: 5px;
+				border: 1px solid gray;
+				padding: 5px;
+				}
+				
+.description {	display: inline-block;
+				width: 174px;
+				vertical-align: top;
+				margin: 5px;
+				padding: 5px;
+				height: 174px;
+				overflow-x: hidden;
+				overflow-y: auto;
+				white-space: pre-wrap;      /* CSS3 */   
+				white-space: -moz-pre-wrap; /* Firefox */    
+				white-space: -pre-wrap;     /* Opera <7 */   
+				white-space: -o-pre-wrap;   /* Opera 7 */    
+				word-wrap: break-word;      /* IE */
+				background-color: rgba(227, 220, 121, 0.5);
+				font-size: 12px;
+				font-family: "Lucida Grande", "Tahoma";
+				}
+				
+.heading {	display: inline-block;
+			width: 174px;
+			margin: 5px;
+			padding: 5px;
+			text-align: center;
+			font-family: "Comic Sans MS", "Lucida Grande", "sans-serif";
+			font-size: 14px;
+			}
+			
+/* Hall of Fame */
+
+#ring {	margin: 20px; }

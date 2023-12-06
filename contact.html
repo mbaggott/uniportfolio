@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <!-- Header, contains title, character encoding, plus stylesheet and font links -->	
+  <head>
+  	<meta charset="utf-8" />
+	<title>
+      Portfolio of Michael Baggott - Contact Page
+    </title>	
+	<meta name="description" content="Welcome to the Contact page for Michael Baggott. Contact Michael via email, telephone, or mail here, or lodge a contact request form.">  
+	<link href="css/stylesheet.css" rel="stylesheet" type="text/css" />
+	<link href='http://fonts.googleapis.com/css?family=Spinnaker' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Dancing+Script:700' rel='stylesheet' type='text/css'>
+	
+  </head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-FKJK7PJ0VH"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'G-FKJK7PJ0VH');
+	</script>
+  
+  <!-- Body, main content of page -->
+  <body>
+    
+	<!-- Section container for top heading section -->
+	<section id = "topWrapper">
+	
+		<!-- Logo image -->
+		<article id = "logoHolder" class = "inline">
+			<img id = "logo" src = "images/logo.jpg" alt = "Logo for Michael Baggot - Silver and White letters, M and B" />
+		</article><!-- Heading text --><section id = "headingHolder" class = "inline">
+			<section>
+				<span class = "headingName">Contact</span>
+				
+				<!-- Social media icons -->
+				<article class = "inline" id = "contactHeadingIcons">
+					<!-- Social media icons reference: http://www.iconarchive.com/category/social-network-icons.html -->
+					<img class = "contactHeadingImage" src = "images/socialBar.png" alt = "Social Media Icons in a horizontal bar, including Facebook, Google Plus, Twitter, LinkeIn and YouTube" width = "270" height = "60" />
+				</article>
+			</section>
+	    </section>
+	</section>
+	
+	<!-- Horizontal spacer -->
+	<div class = "spacerBar"></div>
+	
+	<!-- Navigation Menu -->
+	<nav id = "navmenu">
+		<a class = "inline" href="index.html"><div class = "nav">HOME</div></a>
+		<a class = "inline" href="resume.html"><div class = "nav">RESUME</div></a>
+		<a class = "inline" href="browse.html"><div class = "nav">BROWSE</div></a>
+		<a class = "inline" href="programming.html"><div class = "nav">PROGRAMMING</div></a>
+		<a class = "inline" href="web.html"><div class = "nav">WEB</div></a>
+		<a class = "inline" href="contact.html"><div id = "currentNav">CONTACT<div id = "navChild"></div></div></a>
+	</nav>
+	
+	<!-- Horizontal spacer -->
+	<div class = "spacerBar"></div>
+	
+	<!-- Content section, has styling -->
+	<section id = "content">
+	
+		<!-- Wrapper section, has centring styling -->
+		<section id = "contentWrapper">
+		
+			<!-- Section container for contact icons and information -->
+			<!-- Contact icons reference: http://www.iconarchive.com/tag/contact -->
+			<section id = "iconContainer" class =  "inline">
+				
+				<!-- Row 1 -->
+				<div class = "contactIcons">
+					<a id = "aEmailImg" href = "mailto:test@test.com"><img id = "emailImg" src = "images/emailIcon60.png" alt = "Email Icon - circle with grey background and white @ symbol. Rotates and glows orange on hover." width = "60" height = "60" /></a>
+					<article id = "emailLink" class = "contactDetails inline" title = "Send Email"><a id = "aEmailLink" href = "mailto:test@test.com" title = "Send Mail">test@test.com</a></article>
+				</div>
+				
+				<!-- Row 2 -->
+				<div class = "contactIcons">
+					<img src = "images/mailIcon60.png" alt = "Mail Icon - cirle with grey background and image of a white envelope" width = "60" height = "60" />
+					<article id = "mailAddress" class = "inline">PO Box 413<br/>Coolum Beach<br/>QLD 4573</article>
+				</div>
+				
+				<!-- Row 3 -->
+				<div class = "contactIcons">
+					<a id = "aTelImg" href = "tel:+61406497246"><img id = "telImg" src = "images/phoneIcon60.png" alt = "Telephone Icon - circle with grey background and image of a white telephone handset. Rotates and glows orange on hover." width = "60" height = "60" /></a>
+					<article id = "telLink" class = "contactDetails inline" title = "Call Now"><a id = "aTelLink" href = "tel:+61406497246" title = "Call Now">0406 497 246</a></article>
+				</div>
+				
+				<!-- Row 4 -->
+				<div class = "contactIcons">
+					<a id = "aSkypeImg" href = "skype:user?chat"><img id = "skypeImg" src = "images/skypeIcon60.png" alt = "Skype Icon - circle with grey background and image of a white headset. Rotates and glows orange on hover." width = "60" height = "60" /></a>
+					<article id = "skypeLink" class = "contactDetails inline" title = "Send an Instant Message"><a id = "aSkypeLink" href = "skype:michaelbaggott05?chat" title = "Send an Instant Message">Skype: user</a></article>
+				</div>
+			</section>
+		
+			<!-- Section to contain contact form-->
+			<section id = "formContainer" class = "inline">
+			
+				<!-- Contact form -->
+				<form id = "form" action="mailto:test@test.com?subject=Email%20Enquiry&amp;body=message" method="post" enctype="text/plain">
+					<fieldset id = "formBorder">
+						<legend id = "formHeading">Contact Form</legend>
+						<section class = "formPlaceHolder">
+							<label class = "formLabel" for = "name">Name:</label>
+							<input class = "formInput" id = "name" type = "text" name = "name" />
+						</section>
+						<section class = "formPlaceHolder">
+							<label class = "formLabel" for = "email">Email Address:</label>
+							<input class = "formInput" id = "email" type = "text" name = "email" />
+						</section>
+						<section class = "formPlaceHolder">	
+							<label class = "formLabel" for = "subject">Subject:</label>
+							<input class = "formInput" id = "subject" type = "text" name = "subject" />
+						</section>
+						<section class = "formPlaceHolder">
+							<label class = "formLabel textAreaLabel" for = "textArea">Message:</label>
+							<textarea id = "textArea"  rows = "10" cols = "24" name = "message" >
+							</textarea>
+						</section>
+						<section id = "buttonHolder">
+							<input class = "button" type = "submit" value = "Submit"/>
+							<input class = "button" type = "reset" value = "Reset" />
+						</section>
+					</fieldset>
+				</form>
+		
+			</section>
+		</section>
+	</section>
+	
+	<!-- Footer, same on all pages -->
+	<section id = "footer">
+			<article class = "footerInner wordWrap">&copy; Michael Baggott 2014. This website has been created as part of an assignment in an approved course of study for Curtin University and contains copyright material not created by the author. All copyright material used remains copyright of the respective owners and has been used here pursuant to Section 40 of the Copyright Act 1968 (Commonwealth of Australia). No part of this work may be reproduced without consent of the original copyright owners. See code comments for references.</article>
+	</section>
+	
+  </body>
+  
+</html>
